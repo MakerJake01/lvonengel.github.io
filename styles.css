@@ -4,6 +4,22 @@ body {
     background: lightblue;
 }
 
+.homepage {
+    text-align: center;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
 /* Edits navigation bar in top right */
 nav {
     position: absolute;
@@ -12,11 +28,12 @@ nav {
     font-size: 30px;
     display: flex;
     gap: 1em;
+    padding-right:20px;
 }
 
 nav a {
     text-decoration: none;
-    color: #333;
+    color: black;
 }
 
 /* Dropdown container */
@@ -31,7 +48,10 @@ nav a {
     position: absolute;
     min-width: 160px;
     z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
     right: 0;
+    margin-top: 2px;
 }
 
 
@@ -42,6 +62,8 @@ nav a {
     display: block;
     background-color: darkcyan;
     border-radius: 15px;
+    text-align: center;
+    line-height: 1.2;
 }
 
 /* Show dropdown on hover */
@@ -53,6 +75,20 @@ nav a {
 .dropdown-content a:hover {
     background-color: lightblue;
     outline: 2px solid black;
+}
+
+/* Settings for theme button */
+#theme-button {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+}
+
+/* Settings for hovering over theme button */
+#theme-button:hover {
+    cursor:pointer;
 }
 
 /* Settings for dark mode */
