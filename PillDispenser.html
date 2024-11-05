@@ -10,10 +10,10 @@
     
   </head>
 
-
   <body>
+    <!--Navigation Bar-->
     <header>
-      <h1>Personal Portfolio</h1>
+      <h1>Liu von Engelbrechten</h1>
       <nav>
           <a href="index.html">Home</a>
           <a href="experiences.html">Experience</a>
@@ -34,46 +34,66 @@
   <img id="theme-button" src="img/dark-mode.png" width="50" height="50">
 
 
-  <h1>Pill Dispenser</h1>
+  <h1 style="text-align:center">Pill Dispenser</h1>
 
   <div class="columns">
     <img src="imgProject/PillPal.png" width="400" height="200">
     <h2 style="font-weight:normal">
       Pill Pal is is a pill dispensing robot pal made by a team of 8 product development engineers that 
       makes taking medication with  kids all the more safe and consistent.  Pill pal will make sure kids don't 
-      get to their pills when they don't need to while also promoting healthy habits. As mentioned prior, competitors lack a 
+      get to their pills when they don't need to while also promoting healthy habits. Competitors lack a 
       fun and interactive user experience while we bring both the fun and the interaction with our LCD screen and robot pal design. 
     </h2>
   </div>
 
-  <h1 style="text-align:center">Personal Contributions</h1>
+  <h1 class="heading">Personal Contributions</h1>
 
+  <!--Contribution Buttons-->
   <div class="buttonContributions">
     <button id="electricalButton">Electrical Contribution</button>
     <button id="softwareButton">Software Contribution</button>
   </div>
 
+  <!--Electrical-->
   <div class="electrical">
     <h2 style="text-decoration:underline">Electrical</h2>
     <h2>Block Diagram</h2>
 
     <div class="columns">
-      <img src="/imgProject/BlockDiagram.png" width="500" height="350">
-      <h2 style="font-weight:normal">
+      <img src="/imgProject/BlockDiagram.png" width="550" height="350">
+      <p style="font-weight:normal">
         Here is a block diagram that was used to create an outline of our electrical components
-      </h2>
+      </p>
     </div>
+    <h2>Components</h2>
+    <div class="columns">
+      <figure>
+        <img src="/imgProject/GigaR1Fingerprint.png" width="300" height="250">
+        <figcaption style="text-align: center;">Giga R1 with Fingerprint Sensor</figcaption>
+      </figure>
+      <figure>
+        <img src="/imgProject/GigaR1Stepper.png" width="300" height="250">
+        <figcaption style="text-align: center;">Giga R1 with 3 Stepper Motors</figcaption>
+      </figure>
+    </div>
+    <ul>
+      <li>Designed Giga R1 Wifi circuit to interface user inputs with a LCD screen (Giga Display Shield).</li> 
+      <li> Implemented a fingerprint sensor to authorize specific users and the ability to change or delete select fingerprint ids.</li> 
+    </ul>
+
+
   </div>  
 
+  <!--Software-->
   <div class="software">
     <h2 style="text-decoration:underline">Software</h2>
     <h2>Figma Outline</h2>
 
     <div class="columns">
       <img src="/imgProject/FigmaOutline.png" width="700" height="350">
-      <h2 style="font-weight:normal">
+      <p>
         Here is a wirefame made in Figma for the LCD UI
-      </h2>
+      </p>
     </div>
   </div>
 
