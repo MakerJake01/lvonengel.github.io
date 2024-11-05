@@ -4,14 +4,26 @@ body {
     background: lightblue;
 }
 
+/* Edits navigation bar in top right*/
 nav a {
     text-decoration: none;
     color: #333;
+    padding: 5px;
 }
 nav {
     position: absolute;
     top: 0;
     right: 0;
-    font-size: 25px;
+    font-size: 30px;
 }
 
+/* Settings for dark mode */
+.dark-mode {
+    background-color: black;
+    color:lightblue;
+}
+
+/* Inverses the dark-mode image button */
+.dark-mode #theme-button {
+    filter: invert(1);
+}
