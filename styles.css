@@ -1,1 +1,17 @@
-/* Add CSS styles for your web site here
+/* Add CSS styles for your web site here */
+
+body {
+    background: lightblue;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 25px;
+}
+
