@@ -10,3 +10,13 @@ const toggleDarkMode = () => {
 }
 
 themeButton.addEventListener("click", toggleDarkMode);
+
+document.getElementById("electricalButton").addEventListener("click", function() {
+    document.querySelector(".electrical").style.display = "block";
+    document.querySelector(".software").style.display = "none";
+});
+
+document.getElementById("softwareButton").addEventListener("click", function() {
+    document.querySelector(".software").style.display = "block";
+    document.querySelector(".electrical").style.display = "none";
+});
