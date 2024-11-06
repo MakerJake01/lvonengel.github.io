@@ -36,12 +36,21 @@
 
   <h1 style="text-align:center">Automatic Greenhouse</h1>
 
-  <div class="columns">
-    <img src="imgGreenhouse/FinalProduct.png" width="350" height="300">
+  <!--Introduction-->
+  <div class="column3">
+    <figure>
+      <img src="/imgGreenhouse/FinalProduct.png" width="250" height="200">
+      <figcaption style="text-align: center;">Farmadillo Shell</figcaption>
+    </figure>
+
+    <figure>
+      <img src="/imgGreenhouse/ControlBox.png" width="250" height="200">
+      <figcaption style="text-align: center;">Control Box</figcaption>
+    </figure>
     <p>
       The automatic greenhouse, known as Farmadillo, is an easy-to-assemble produt that allows users to keep
       their plant in a safe and controlled environment outdoors, keeping away pests and shading it
-      from excessive light. Using the controlled box, users can wirelessly assin unique plant profiles
+      from excessive light. Using the controlled box, users can wirelessly assign unique plant profiles
       to each Farmadillo "shell," allowing a system of easily-controlled greenhouses to be set up across one yard.
       The control box will provide information on the optimal amount of sunlight, closing or opening the dome.
     </p>
@@ -53,7 +62,7 @@
     <button id="softwareButton">Software Contribution</button>
   </div>
 
-  <!--The dome section-->
+  <!--Electrical Contribution-->
   <div class="electrical">
     <h2>The Dome</h2>
     <div class="columns">
@@ -63,7 +72,7 @@
     </div>
 
     <!--Video for servos-->
-    <div>
+    <div class="videoContainer">
       <video width="320" height="240" autoplay muted>
         <source src="imgGreenhouse/servos.mp4" type="video/mp4">
         <source src="imgGreenhouse/servos.mp4" type="video/ogg">
@@ -76,14 +85,50 @@
       Your browser does not support the video tag.
       </video>
     </div>
+
+    <ul>
+      <li>Programmed and controlled dual servos for dome actuation for a fully automated 
+        and responsive greenhouse environment</li>
+    </ul>
   </div>
 
+  <!--Software Contribution-->
   <div class="software">
-    <h2>Sensors</h2>
+    <h2>App Design</h2>
+
+    <div class="columns">
+      <img src="/imgGreenhouse/OutlineFigma.png" width="500" height="350">
+      <p>
+        <a href="https://www.figma.com/proto/9EvpaHiCn66HPtarekhZex/Forge-App-Idea?node-id=0-1&t=56Wz9oQddgJ1smLV-1">Here</a> 
+        is an outline of the app created in Figma. In this app, the user can store different plant profiles that require
+        different amount of sunlight.
+      </p>
+    </div>
+    <h2>Electrical Components</h2>
+    <div class="columns">
+      <figure>
+        <img src="/imgGreenhouse/LuxSensor.png" width="300" height="200">
+        <figcaption style="text-align: center;">Arduino with Lux Sensor</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/imgGreenhouse/MoistureSensor.png" width="200" height="200">
+        <figcaption style="text-align: center;">Arduino with Moisture Sensor</figcaption>
+      </figure>
+
+      <figure>
+        <img src="/imgGreenhouse/LCDScreen.png" width="200" height="200">
+        <figcaption style="text-align: center;">Arduino with LCD Screen</figcaption>
+      </figure>
+      
+    </div>
+    
+    <ul>
+      <li>Developed an automatic greenhouse system with integrated lux and soil moisture sensors to optimize
+        plant protection by dynamically opening and closing a dome based on sunlight and soil moisture levels</li>
+    </ul>
+
   </div>
-
-
-
 
   <script src="index.js"></script>
   </body>

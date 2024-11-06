@@ -44,6 +44,18 @@ figure {
     text-align: left;
 }
 
+
+.column3 {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 10px; 
+    padding: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
 .buttonContributions {
     text-align: center;
     justify-content: center;
@@ -54,12 +66,24 @@ figure {
     border-radius: 15px;
     padding: 10px;
     cursor: pointer;
+
 }
 
-.electrical .software {
+.electrical, .software {
     display: none;
 }
 
+.videoContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.video-container video {
+    margin: 10px;
+    max-width: 100%;
+    width: 600px;
+    height: 450px;
+}
 
 /* Edits navigation bar in top right */
 nav {
