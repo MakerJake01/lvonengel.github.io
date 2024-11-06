@@ -85,6 +85,12 @@ figure {
     height: 450px;
 }
 
+iframe {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
 /* Edits navigation bar in top right */
 nav {
     position: absolute;
