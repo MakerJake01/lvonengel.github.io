@@ -142,6 +142,7 @@ nav a {
 .dark-mode nav a {
     color: lightblue;
 }
+
 /* Inverses the dark-mode image button */
 .dark-mode #theme-button {
     filter: invert(1);
