@@ -81,10 +81,16 @@ figure {
 }
 
 .video-container video {
-    margin: 10px;
+    margin: 30px;
     max-width: 100%;
     width: 600px;
-    height: 450px;
+    height: auto;
+}
+
+video {
+    padding-left: 50px;
+    padding-right: 50px;
+
 }
 
 iframe {
