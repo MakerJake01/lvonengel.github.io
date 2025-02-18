@@ -11,12 +11,23 @@ const toggleDarkMode = () => {
 
 themeButton.addEventListener("click", toggleDarkMode);
 
+// when electrical button is clicked
 document.getElementById("electricalButton").addEventListener("click", function() {
     document.querySelector(".electrical").style.display = "block";
     document.querySelector(".software").style.display = "none";
+    document.querySelector(".result").style.display = "none";
 });
 
+// when software button is clicked
 document.getElementById("softwareButton").addEventListener("click", function() {
-    document.querySelector(".software").style.display = "block";
     document.querySelector(".electrical").style.display = "none";
+    document.querySelector(".software").style.display = "block";
+    document.querySelector(".result").style.display = "none";
+});
+
+// when result button is clicked
+document.getElementById("resultButton").addEventListener("click", function() {
+    document.querySelector(".software").style.display = "none";
+    document.querySelector(".electrical").style.display = "none";
+    document.querySelector(".result").style.display = "block";
 });
